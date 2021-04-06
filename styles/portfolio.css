@@ -1,12 +1,14 @@
 :root {
-    --primary-color: #6c63ff;
-    --secondary-color: #f5f2fe;
+    --primary-black: #222329;
+    --primary-green: #3d9443;
+    --primary-teal: 	#439d8b;
+    --primary-bronze: #c9a989;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
   body {
     margin-top: 50px;
-    background-color: yellow;
+    background-color: var(--primary-black);
   }
 
 
