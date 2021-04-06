@@ -11,6 +11,33 @@
     background-color: var(--primary-black);
   }
 
+  span {
+    background-color: var(--primary-black);
+    padding: 5px;
+  }
+  
+  h1 {
+    font-family: Karla;
+    font-size: 60px;
+  }
+
+  h2 {
+    font-family: Karla;
+    font-size: 30px;
+  }
+
+  .hero {
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447');
+    background-position-y: 75%;
+    padding: 250px;
+    opacity: 50%;
+  }
+
+  .hero-text {
+    text-align: left;
+    color: white;
+   
+  }
 
   
   
