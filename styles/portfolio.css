@@ -50,6 +50,21 @@
     text-align: center;
   }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-family:karla;
+
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: var(--primary-black);
+  font-size: 10px;
+  font-family: karla;
+  padding: 20px;
+}
   .hero {
     background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447');
     background-position-y: 80%;
