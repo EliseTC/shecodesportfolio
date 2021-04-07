@@ -35,19 +35,14 @@
     font-size: 25px;
     margin: 30px;
   }
-  h4 {
-    text-align: center;
-    font-size: 15px;
-    color: white;
-    font-family: karla;
-    margin: 30px;
 
-  }
+
 
   p {
     margin: 30px;
-    color: white;
+    color: var(--primary-black);
     text-align: center;
+    font-family: karla;
   }
 
 a {
@@ -93,6 +88,13 @@ footer {
     color: white;
   }
 
+  #portfoliopics:hover {
+filter: grayscale();
+cursor: pointer;
+  }
+  
 
+  
+  
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
