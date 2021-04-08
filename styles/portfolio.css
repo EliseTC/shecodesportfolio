@@ -61,6 +61,10 @@ footer {
   padding: 20px;
 }
 
+.link-footer{
+  color: white;
+  font-family: Karla;
+}
 
   .hero-text {
     text-align: left;
@@ -83,12 +87,7 @@ footer {
     color: white;
   }
 
-  #portfoliopics:hover {
-filter: grayscale();
-cursor: pointer;
-  }
-  
-
+ 
   #hero {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
     width: 100%;
@@ -96,8 +95,14 @@ cursor: pointer;
     background-size: cover;
     padding: 0 15px;
     background-position-y: 80%;
-}
+  }
 
-  
+  #portfoliopics:hover {
+    filter: grayscale();
+    cursor: pointer;
+  }
+
+
+ 
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
