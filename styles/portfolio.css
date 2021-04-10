@@ -34,7 +34,6 @@
   }
 
 
-
   p {
     margin: 30px;
     color: var(--primary-black);
@@ -99,7 +98,34 @@ footer {
     cursor: pointer;
   }
 
+  .tile {
+    position: relative;
+  }
+  
+  .tile-title {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: none;
+    font-family: Karla;
+    color: white;
+  }
+  
+  .tile:hover #portfoliopics {
+    filter: grayscale();
+    cursor: pointer;
+  }
+  
+  .tile:hover .tile-title {
+    display: flex;
+  }
 
+  
   
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
