@@ -30,9 +30,25 @@
     text-align: center;
     font-family: Karla;
     font-size: 25px;
-    margin: 30px;
+    margin: 10px;
   }
 
+  h4 {
+    color: white;
+    text-align: center;
+    font-family: Karla;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  h5 {
+    color: white;
+    text-align: center;
+    font-family: Karla;
+    font-size: 14px;
+    margin: 30px;
+  }
+  
 
   p {
     margin: 30px;
@@ -57,6 +73,21 @@ footer {
   padding: 20px;
 }
 
+.carousel {
+  margin: 0 auto;
+}
+
+.link2 {
+  color: var(--primary-teal);
+}
+
+.link:hover {
+  color: var(--primary-black)
+}
+
+.link2:hover {
+  color: var(--primary-black)
+}
 .link-footer{
   color: white;
   font-family: Karla;
@@ -131,6 +162,16 @@ footer {
   #portfoliopics:hover {
     filter: grayscale();
     cursor: pointer;
+  }
+
+  #carouselExampleCaptions {
+    width: 30%;
+    display: flex;
+    
+  }
+
+  .lastwork {
+    display: flex;
   }
 
   .tile {
