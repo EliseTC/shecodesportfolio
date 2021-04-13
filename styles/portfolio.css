@@ -76,7 +76,20 @@ footer {
 .carousel {
   margin: 0 auto;
 }
+.card {
+  margin: 0 auto;
+  box-shadow: var(--box-shadow);
+}
+.card-link {
+  color: var(--primary-teal);
+}
 
+.card-text {
+  text-align: left;
+}
+.card-link:hover {
+  color: var(--primary-black);
+}
 .link2 {
   color: var(--primary-teal);
 }
