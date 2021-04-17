@@ -220,6 +220,11 @@ a:hover {
 #Elise {
   max-block-size: 40%;
 }
-  
+
+@media (max-width: 576px) { 
+  h1 {
+    font-size: 30px;
+  }
+}
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
