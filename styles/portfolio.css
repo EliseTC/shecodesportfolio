@@ -11,18 +11,19 @@
     background-color: white
   }
 
-
   
   h1 {
     font-family: Karla;
     font-size: 60px;
-    color: var(--primary-black)
+    color: var(--primary-black);
+    text-align:center;
   }
 
   h2 {
     font-family: Karla;
     font-size: 20px;
     color: var(--primary-black);
+    text-align:center;
   }
 
   h3 {
@@ -57,12 +58,11 @@
     font-family: Karla;
   }
 
-a {
+  a {
   text-decoration: none;
   color: white;
   font-family: Karla;
-
-}
+  }
 
 footer {
   color: white;
@@ -71,15 +71,17 @@ footer {
   font-size: 10px;
   font-family: karla;
   padding: 20px;
-}
+  }
 
-.carousel {
-  margin: 0 auto;
+  #contact {
+  background-color: var(--primary-teal);
+  padding: 50px;
 }
 .card {
   margin: 0 auto;
   box-shadow: var(--box-shadow);
 }
+
 .card-link {
   color: var(--primary-teal);
 }
@@ -87,13 +89,21 @@ footer {
 .card-text {
   text-align: left;
 }
+
 .card-link:hover {
   color: var(--primary-black);
 }
+
+.carousel {
+  margin: 0 auto;
+}
+
 .link2 {
   color: var(--primary-teal);
 }
-
+a:hover {
+  color: var(--primary-black);
+}
 .link:hover {
   color: var(--primary-black)
 }
@@ -106,118 +116,110 @@ footer {
   font-family: Karla;
 }
 
-  .hero-text {
+.hero-text {
     text-align: center;
     color: white;
+}
 
-  }
-
-  .hero-text-blog {
+.hero-text-blog {
     color: white;
+}
 
-  }
-
-  .highlighted-word {
+.highlighted-word {
     color: white;
     background-color: var(--primary-black);
     padding-left: 13px;
     padding-right: 13px;
     font-family: karla;
     border-radius: 4px;
-  }
+}
 
-  .highlight {
+.highlight {
     background-color: var(--primary-black);
     padding: 5px;
     color: white;
-  }
-
+}
  
-  #hero {
+#hero {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
     width: 100%;
     height: 70vh;
     background-size: cover;
     padding: 0 15px;
     background-position-y: 80%;
-  }
+}
 
-  #hero-blog {
+#hero-blog {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
     width: 100%;
     height: 20vh;
     background-size: cover;
     padding: 0 15px;
     background-position-y: 40%;
-  }
+}
 
-    #hero-portfolio {
-      background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
-      width: 100%;
-      height: 20vh;
-      background-size: cover;
-      padding: 0 15px;
-      background-position-y: 40%;
-    }
-
-   
-
-      #hero-contact {
-        background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
-      width: 100%;
-      height: 20vh;
-      background-size: cover;
-      padding: 0 15px;
-      background-position-y: 40%;
-    }
-
-
-  #portfoliopics:hover {
-    filter: grayscale();
-    cursor: pointer;
-  }
-
-  #carouselExampleCaptions {
-    width: 60%;
-    display: flex;
-    
-  }
-
-  .lastwork {
-    display: flex;
-  }
-
-  .tile {
-    position: relative;
-    
-  }
-  
-  .tile-title {
-    position: absolute;
-    z-index: 1;
-    display: flex;
+#hero-portfolio {
+    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
     width: 100%;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    display: none;
-    font-family: Karla;
-    color: white;
-  }
-  
-  .tile:hover #portfoliopics {
-    filter: grayscale();
-    cursor: pointer;
-  }
-  
-  .tile:hover .tile-title {
-    display: flex;
-  }
+    height: 20vh;
+    background-size: cover;
+    padding: 0 15px;
+    background-position-y: 40%;
+}
 
-  #Elise {
-    max-block-size: 40%;
-  }
+#hero-contact {
+   background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
+   width: 100%;
+   height: 20vh;
+   background-size: cover;
+   padding: 0 15px;
+   background-position-y: 40%;
+}
+
+#portfoliopics:hover {
+   filter: grayscale();
+   cursor: pointer;
+}
+
+#carouselExampleCaptions {
+   width: 60%;
+   display: flex; 
+}
+
+.lastwork {
+  display: flex;
+}
+
+.tile {
+  position: relative;  
+}
+  
+.tile-title {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  display: none;
+  font-family: Karla;
+  color: white;
+}
+  
+.tile:hover #portfoliopics {
+  filter: grayscale();
+  cursor: pointer;
+}
+  
+.tile:hover .tile-title {
+  display: flex;
+}
+
+#Elise {
+  max-block-size: 40%;
+}
   
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
