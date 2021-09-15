@@ -91,6 +91,7 @@ footer {
 .card {
   margin: 0 auto;
   box-shadow: var(--box-shadow);
+  
 }
 
 .card-link {
@@ -241,6 +242,10 @@ a:hover {
   max-block-size: 40%;
 }
 
+#title {
+  font-family: Spectral;
+}
+
 @media (max-width: 576px) { 
   h1 {
     font-size: 30px;
@@ -273,7 +278,8 @@ a:hover {
 
 .accordion{
   max-width: 100%;
-  margin: 10px 300px 30px 300px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
 }
 
 .bloglink{
