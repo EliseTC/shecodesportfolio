@@ -157,6 +157,14 @@ a:hover {
     padding: 0 15px;
     background-position-y: 40%;
 }
+#hero-blogpost {
+  background-color: var(--primary-teal);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
 
 #hero-portfolio {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
@@ -225,6 +233,22 @@ a:hover {
   h1 {
     font-size: 30px;
   }
+}
+
+.blogbox {
+  background-color: white;
+  padding:75px;
+  margin: -50px 300px 0px 300px;
+  max-width: 100%;
+  position: relative;
+}
+
+.blogbody {
+  background-color: lightgray;
+}
+
+.blogpost {
+  text-align:left;
 }
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
