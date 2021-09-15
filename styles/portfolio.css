@@ -28,10 +28,11 @@
 
   h3 {
     color: var(--primary-black);
-    text-align: center;
+    text-align: left;
     font-family: Karla;
     font-size: 25px;
     margin: 10px;
+    font-weight: bold;
   }
 
   h4 {
@@ -56,6 +57,16 @@
     color: var(--primary-black);
     text-align: center;
     font-family: Karla;
+  }
+
+  blockquote {
+    color: var(--primary-teal);
+    font-size: 30px;
+    max-width: 50%;
+    margin: auto;
+    position: relative;
+    font-family: Spectral;
+    padding: 10px;
   }
 
   a {
@@ -105,7 +116,7 @@ a:hover {
   color: var(--primary-black);
 }
 .link:hover {
-  color: var(--primary-black)
+  color: var(--primary-black);
 }
 
 .link2:hover {
@@ -123,6 +134,7 @@ a:hover {
 
 .hero-text-blog {
     color: white;
+    font-family: Karla;
 }
 
 .highlighted-word {
@@ -238,7 +250,7 @@ a:hover {
 .blogbox {
   background-color: white;
   padding:75px;
-  margin: -50px 300px 0px 300px;
+  margin: -75px 300px 0px 300px;
   max-width: 100%;
   position: relative;
 }
@@ -249,6 +261,25 @@ a:hover {
 
 .blogpost {
   text-align:left;
+  font-size: 20px;
+  color: var(--primary-black);
 }
+
+.blogpostaccordion {
+  text-align:left;
+  color: var(--primary-black);
+  font-size: 15px;
+}
+
+.accordion{
+  max-width: 100%;
+  margin: 10px 300px 30px 300px;
+}
+
+.bloglink{
+  color: var(--primary-black);
+}
+
+
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
