@@ -268,7 +268,7 @@ a:hover {
 }
 
 .blogbody {
-  background-color: lightgray;
+  background-color: #F8F8F8;
 }
 
 .blogpost {
@@ -299,7 +299,7 @@ a:hover {
   padding: 20px;
   color: var(--primary-black);
   font-weight: bold;
-  background-color: lightgray;
+  background-color: #F8F8F8;
   
 }
 
