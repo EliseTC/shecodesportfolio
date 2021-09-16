@@ -257,7 +257,14 @@ a:hover {
     font-size: 30px;
   }
   
+  
 }
+@media (max-width: 800px) {
+  blockquote {
+    display:none; 
+  }
+}
+
 
 .blogbox {
   background-color: white;
@@ -305,6 +312,7 @@ a:hover {
 .accordion-button:not(.collapsed) {
   background: var(--primary-teal);
   color: white;
+
 }
 
 
