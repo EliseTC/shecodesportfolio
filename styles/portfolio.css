@@ -23,15 +23,14 @@
     font-family: Karla;
     font-size: 20px;
     color: var(--primary-black);
-    text-align:center;
   }
 
   h3 {
     color: var(--primary-black);
     text-align: left;
     font-family: Karla;
-    font-size: 25px;
-    margin: 10px;
+    font-size: 20px;
+    margin: 20px 0;
     font-weight: bold;
   }
 
@@ -53,9 +52,9 @@
   
 
   p {
-    margin: 30px;
+    margin: 30px 0;
     color: var(--primary-black);
-    text-align: center;
+    text-align: left;
     font-family: Karla;
   }
 
@@ -84,6 +83,7 @@ footer {
   padding: 20px;
   }
 
+
   #contact {
   background-color: var(--primary-teal);
   padding: 50px;
@@ -91,7 +91,6 @@ footer {
 .card {
   margin: 0 auto;
   box-shadow: var(--box-shadow);
-  
 }
 
 .card-link {
@@ -110,6 +109,10 @@ footer {
   margin: 0 auto;
 }
 
+.container {
+  width: 75%;
+  margin: auto;
+}
 .link2 {
   color: var(--primary-teal);
 }
@@ -180,22 +183,23 @@ a:hover {
 }
 
 #hero-portfolio {
-    background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
+  background-color: var(--primary-teal);
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
+
+#hero-publications {
+    background: url(../styles/images/publicationsbanner.jpg) ; 
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     background-size: cover;
     padding: 0 15px;
     background-position-y: 40%;
 }
 
-#hero-contact {
-   background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
-   width: 100%;
-   height: 20vh;
-   background-size: cover;
-   padding: 0 15px;
-   background-position-y: 40%;
-}
 
 #portfoliopics:hover {
    filter: grayscale();
@@ -206,10 +210,10 @@ a:hover {
    width: 60%;
    display: flex; 
 }
-#elisepic {
-  display: block;
+
+.homepage {
+  width: 60%;
   margin: auto;
-  padding: 10px;
 }
 
 
@@ -221,22 +225,11 @@ a:hover {
   position: relative;  
 }
   
-.tile-title {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  width: 90%;
-  margin: 10px;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  display: none;
-  font-family: Karla;
-  color: white;
-}
+
+
   
 .tile:hover #portfoliopics {
-  filter: grayscale();
+  filter: grayscale(0.5) drop-shadow(2px 2px 2px gray); 
   cursor: pointer;
 }
   
@@ -251,6 +244,7 @@ a:hover {
 #title {
   font-family: Karla;
 }
+
 
 @media (max-width: 576px) { 
   h1 {
@@ -301,12 +295,13 @@ a:hover {
 }
 
 .aboutme {
- 
-  margin: 0 0 20px 0;
-  padding: 20px;
-  color: var(--primary-black);
-  font-weight: bold;
-  background-color: #F8F8F8;
+  width: 60%;
+  margin: auto;
+}
+
+.introtext {
+  width: 60%;
+  margin: auto;
 }
 
 .accordion-button:not(.collapsed) {
@@ -314,7 +309,26 @@ a:hover {
   color: white;
 
 }
+.skills {
+  background-color: rgba(231, 238, 235, 0.877);
+}
+#skills {
+  max-width: 60%;
+  margin: auto;
+}
+.socialmedia {
+  margin: 20px;
+}
 
 
+.portfoliolink {
+  text-decoration: none;
+  color: var(--primary-teal);
+  font-family: Karla;
+  }
+
+.portfoliolink:hover {
+    color: var(--primary-black);
+  }
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
