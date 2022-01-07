@@ -68,6 +68,20 @@
     padding: 10px;
   }
 
+  button {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--primary-teal);
+    color: white;
+    list-style: none;
+  }
+
+button:hover{
+  filter: grayscale();
+  cursor: pointer;
+}
+
   a {
   text-decoration: none;
   color: white;
@@ -83,8 +97,11 @@ footer {
   padding: 20px;
   }
 
+  .button {
+    text-align: center;
+  }
 
-  #contact {
+#contact {
   background-color: var(--primary-teal);
   padding: 50px;
 }
@@ -130,9 +147,11 @@ footer {
   width: 75%;
   margin: auto;
 }
+
 .link2 {
   color: var(--primary-teal);
 }
+
 a:hover {
   color: var(--primary-black);
 }
@@ -158,20 +177,6 @@ a:hover {
     font-family: Karla;
 }
 
-.highlighted-word {
-    color: white;
-    background-color: var(--primary-black);
-    padding-left: 13px;
-    padding-right: 13px;
-    font-family: karla;
-    border-radius: 4px;
-}
-
-.highlight {
-    background-color: var(--primary-black);
-    padding: 5px;
-    color: white;
-}
  
 #hero {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
@@ -217,6 +222,56 @@ a:hover {
     background-position-y: 40%;
 }
 
+#hero-animates {
+  background: url(../styles/images/animatesbanner.jpg) ; 
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
+
+#hero-codingwebsite {
+  background: url(../styles/images/portfoliobanner.jpg) ; 
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
+
+#hero-themovingtype {
+  background: url(../styles/images/themovingtypebanner.jpg) ; 
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
+
+#hero-weatherapp {
+  background: url(../styles/images/weatherappbanner.jpg) ; 
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  padding: 0 15px;
+  background-position-y: 40%;
+}
+
+.highlighted-word {
+  color: white;
+  background-color: var(--primary-black);
+  padding-left: 13px;
+  padding-right: 13px;
+  font-family: karla;
+  border-radius: 4px;
+}
+
+.highlight {
+  background-color: var(--primary-black);
+  padding: 5px;
+  color: white;
+}
 
 #portfoliopics:hover {
    filter: grayscale();
