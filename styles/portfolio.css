@@ -89,6 +89,21 @@ footer {
   padding: 50px;
 }
 
+#contact-home {
+  background-color: var(--primary-teal);
+  padding: 50px;
+}
+
+#contact-publications {
+  background-color: var(--primary-teal);
+  padding: 50px;
+}
+
+#contact-portfolio{
+  background-color: var(--primary-teal);
+  padding: 50px;
+}
+
 
 .card {
   margin: 0 auto;
