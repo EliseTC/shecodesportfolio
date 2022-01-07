@@ -88,6 +88,8 @@ footer {
   background-color: var(--primary-teal);
   padding: 50px;
 }
+
+
 .card {
   margin: 0 auto;
   box-shadow: var(--box-shadow);
@@ -224,8 +226,6 @@ a:hover {
 .tile {
   position: relative;  
 }
-  
-
 
   
 .tile:hover #portfoliopics {
