@@ -43,11 +43,11 @@
   }
   
   h5 {
-    color: white;
+    color: var(--primary-black);
+    font-weight: bold;
     text-align: center;
     font-family: Karla;
-    font-size: 14px;
-    margin: 30px;
+    font-size: 17px;
   }
   
 
@@ -101,6 +101,11 @@ footer {
     text-align: center;
   }
 
+ .codingbutton{
+   background-color: var(--primary-bronze);
+ }
+
+
 #contact {
   background-color: var(--primary-teal);
   padding: 50px;
@@ -118,6 +123,11 @@ footer {
 
 #contact-portfolio{
   background-color: var(--primary-teal);
+  padding: 50px;
+}
+
+#contact-coding {
+  background-color: var(--primary-bronze);
   padding: 50px;
 }
 
@@ -382,6 +392,11 @@ a:hover {
 .skills {
   background-color: rgba(231, 238, 235, 0.877);
 }
+
+.skillsweatherapp {
+  background-color: rgba(201, 169, 137, 0.15);
+}
+
 #skills {
   max-width: 60%;
   margin: auto;
@@ -400,5 +415,27 @@ a:hover {
 .portfoliolink:hover {
     color: var(--primary-black);
   }
+
+.slider {
+    color: var(--primary-black);
+    text-align: center;
+    font-family: Karla;
+}
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  background-color: rgba(201,169,137,0.25);
+}
+
+.slider {
+  margin: 30px 0;
+  color: var(--primary-black);
+  text-align: center;
+  font-family: Karla;
+  padding: 0;
+}
+
 /*font-family: 'Karla', sans-serif;/*
 /*font-family: 'Spectral', serif;/*
