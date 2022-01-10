@@ -97,6 +97,10 @@ footer {
   padding: 20px;
   }
 
+  li {
+    font-family: Karla;
+  }
+
   .button {
     text-align: center;
   }
