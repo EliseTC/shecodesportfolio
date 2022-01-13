@@ -185,12 +185,6 @@ a:hover {
     text-align: center;
     color: white;
 }
-
-.hero-text-blog {
-    color: white;
-    font-family: Karla;
-}
-
  
 #hero {
     background: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/006/662/original/Elise_in_cave.jpeg?1617740447') top center;
@@ -305,6 +299,10 @@ a:hover {
 
 .lastwork {
   display: flex;
+}
+
+#logo {
+  font-family: 'Great Vibes', cursive;
 }
 
 .tile {
