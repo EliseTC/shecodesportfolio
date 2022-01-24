@@ -219,7 +219,7 @@ a:hover {
   height: 20vh;
   background-size: cover;
   padding: 0 15px;
-
+  background-position-y: 40%;
 }
 
 #hero-publications {
@@ -335,6 +335,7 @@ a:hover {
   } 
   #hero-codingwebsite {
     background: var(--primary-bronze);
+  
   }
   #hero-weatherapp {
     background: var(--primary-bronze);
@@ -348,6 +349,7 @@ a:hover {
   #hero-animates {
     background: var(--primary-blue);
   }
+  body { padding-top: 30px; }
 }
 
 @media (max-width: 800px) {
