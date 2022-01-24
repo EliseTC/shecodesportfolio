@@ -4,6 +4,7 @@
     --primary-teal: 	#439d8b;
     --primary-bronze: #c9a989;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --primary-blue: #99b7b9;
   }
   
   body {
@@ -344,7 +345,9 @@ a:hover {
   #hero-publications {
     background: var(--primary-teal)
   }
-
+  #hero-animates {
+    background: var(--primary-blue);
+  }
 }
 
 @media (max-width: 800px) {
