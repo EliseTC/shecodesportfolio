@@ -304,6 +304,7 @@ a:hover {
 
 #logo {
   font-family: 'Great Vibes', cursive;
+  background: var(--primary-black);
 }
 
 .tile {
@@ -358,7 +359,7 @@ a:hover {
   }
   body { padding-top: 30px; }
 }
-}
+
 
 
 .blogbox {
