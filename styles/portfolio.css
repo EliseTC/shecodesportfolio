@@ -352,7 +352,7 @@ a:hover {
   body { padding-top: 30px; }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   blockquote {
     display:none; 
   }
