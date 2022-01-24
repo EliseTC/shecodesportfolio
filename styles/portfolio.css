@@ -333,7 +333,7 @@ a:hover {
     font-size: 30px;
   } 
   #hero-codingwebsite {
-    background-color: var(--primary-bronze);
+    background: var(--primary-bronze);
   }
 }
 
