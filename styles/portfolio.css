@@ -332,6 +332,9 @@ a:hover {
   h1 {
     font-size: 30px;
   }
+  #hero-codingwebsite {
+    background-color: var(--primary-bronze);
+  }
   
   
 }
