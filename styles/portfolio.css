@@ -356,6 +356,8 @@ a:hover {
   blockquote {
     display:none; 
   }
+  body { padding-top: 30px; }
+}
 }
 
 
