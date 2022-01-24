@@ -331,13 +331,12 @@ a:hover {
 @media (max-width: 576px) { 
   h1 {
     font-size: 30px;
-  }
+  } 
   #hero-codingwebsite {
     background-color: var(--primary-bronze);
   }
-  
-  
 }
+
 @media (max-width: 800px) {
   blockquote {
     display:none; 
