@@ -335,15 +335,16 @@ a:hover {
   } 
   #hero-codingwebsite {
     background: var(--primary-bronze);
+    background-position-y: 60%;
   }
   #hero-weatherapp {
-    background: var(--primary-bronze)
+    background: var(--primary-bronze);
   }
   #hero-themovingtype {
-    background: var(--primary-teal)
+    background: var(--primary-teal);
   }
   #hero-publications {
-    background: var(--primary-teal)
+    background: var(--primary-teal);
   }
   #hero-animates {
     background: var(--primary-blue);
