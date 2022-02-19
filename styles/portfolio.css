@@ -80,13 +80,14 @@
     margin: 15px;
     padding: 15px;
     border-radius: 10px;
-    background-color: var(--primary-teal);
+    background-color: #ADD9CC;
+    border-color:#ADD9CC ;
     color: white;
     list-style: none;
   }
 
 button:hover{
-  filter: grayscale();
+  filter: var(--primary-teal);
   cursor: pointer;
 }
 
@@ -109,14 +110,19 @@ footer {
     font-family: Karla;
   }
 
-  iframe {
-   
-  }
+
 
   .button {
     text-align: center;
   }
 
+#button {
+  color: var(--primary-black);
+  font-weight: bold;
+}
+  #button:hover {
+    color: white;
+  }  
   
 .card-img-overlay {
     opacity:0;
