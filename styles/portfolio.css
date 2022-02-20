@@ -226,10 +226,10 @@ a:hover {
 #hero {
     background: url(../styles/images/Elise\ in\ cave\ teal.png) top center;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background-size: cover;
     padding: 0 15px;
-    background-position-y: 80%;
+    background-position-y: 77%;
 }
 
 #hero-blog {
