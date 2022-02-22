@@ -318,10 +318,7 @@ a:hover {
   color: white;
 }
 
-#portfoliopics:hover {
-   filter: grayscale();
-   cursor: pointer;
-}
+
 
 #carouselExampleCaptions {
    width: 60%;
